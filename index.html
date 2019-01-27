@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <style>
+            .manual label,
+            .manual input,
+            .manual span {
+                padding: 1em;
+            }
+
+            .manual {
+                display: flex;
+            }
+            .manual input {
+                font-size: 1em;
+                font-family: 'Courier New', Courier, monospace;
+                background: 1px solid rgba(0, 0, 0, 0.2);
+            }
+            .manual span {
+                flex: 1;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            hr {
+                margin: 1em 0;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.2);
+                height: 1px;
+            }
+
+            .random-colors {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .random-colors > div {
+                flex: 1;
+                padding: 1em;
+                font-family: 'Courier New', Courier, monospace;
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+        </style>
+        <link rel="preload" href="dist/bundle.js" as="script" />
+        <title>YIQ</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script src="dist/bundle.js"></script>
+    </body>
+</html>

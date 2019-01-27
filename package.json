@@ -1,0 +1,27 @@
+{
+    "name": "colors",
+    "version": "0.0.1",
+    "description": "detect color contrast",
+    "main": "index.js",
+    "scripts": {
+        "watch": "rollup -w -c",
+        "build": "rollup -c",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mohd Ovais",
+    "license": "ISC",
+    "dependencies": {
+        "preact": "^8.4.2"
+    },
+    "devDependencies": {
+        "eslint": "^5.12.1",
+        "eslint-config-prettier": "^3.6.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "prettier": "^1.15.3",
+        "rollup": "^1.1.0",
+        "rollup-plugin-buble": "^0.19.6",
+        "rollup-plugin-commonjs": "^9.2.0",
+        "rollup-plugin-node-resolve": "^4.0.0",
+        "rollup-plugin-terser": "^4.0.3"
+    }
+}
